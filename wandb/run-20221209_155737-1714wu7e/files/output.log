@@ -1,0 +1,23 @@
+/var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/ipykernel_2382/649669012.py:7: FutureWarning: load_metric is deprecated and will be removed in the next major version of datasets. Use 'evaluate.load' instead, from the new library 🤗 Evaluate: https://huggingface.co/docs/evaluate
+  metric=load_metric('seqeval')
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+Downloading and preparing dataset wikiann/bn to /Users/joesh/.cache/huggingface/datasets/wikiann/bn/1.1.0/4bfd4fe4468ab78bb6e096968f61fab7a888f44f9d3371c2f3fea7e74a5a354e...
+Dataset wikiann downloaded and prepared to /Users/joesh/.cache/huggingface/datasets/wikiann/bn/1.1.0/4bfd4fe4468ab78bb6e096968f61fab7a888f44f9d3371c2f3fea7e74a5a354e. Subsequent calls will reuse this data.
+Parameter 'function'=<function tokenize_adjust_labels at 0x2c9520940> of the transform datasets.arrow_dataset.Dataset._map_single couldn't be hashed properly, a random hash was used instead. Make sure your transforms and parameters are serializable with pickle or dill for the dataset fingerprinting and caching to work. If you reuse this transform, the caching mechanism will consider it to be different from the previous calls and recompute everything. This warning is only showed once. Subsequent hashing failures won't be showed.
+1000
+1000
+1000
+Found cached dataset wikiann (/Users/joesh/.cache/huggingface/datasets/wikiann/bn/1.1.0/4bfd4fe4468ab78bb6e096968f61fab7a888f44f9d3371c2f3fea7e74a5a354e)
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000

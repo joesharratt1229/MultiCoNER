@@ -1,0 +1,59 @@
+
+Found cached dataset conllpp (/Users/joesh/.cache/huggingface/datasets/conllpp/conllpp/1.0.0/04f15f257dff3fe0fb36e049b73d51ecdf382698682f5e590b7fb13898206ba2)
+huggingface/tokenizers: The current process just got forked, after parallelism has already been used. Disabling parallelism to avoid deadlocks...
+To disable this warning, you can either:
+	- Avoid using `tokenizers` before the fork if possible
+	- Explicitly set the environment variable TOKENIZERS_PARALLELISM=(true | false)
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108361795
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/ipykernel_4166/3847960777.py:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  labels.append(0 if label_dir is "neg" else 1)
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/ipykernel_4166/3062452441.py:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  labels.append(0 if label_dir is "neg" else 1)
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+<>:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+/var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/ipykernel_4166/1662860975.py:10: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  labels.append(0 if label_dir is "neg" else 1)
+loading file vocab.txt from cache at /Users/joesh/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/vocab.txt
+loading file tokenizer.json from cache at /Users/joesh/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer.json
+loading file added_tokens.json from cache at None
+loading file special_tokens_map.json from cache at None
+loading file tokenizer_config.json from cache at /Users/joesh/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/tokenizer_config.json
+loading configuration file config.json from cache at /Users/joesh/.cache/huggingface/hub/models--distilbert-base-uncased/snapshots/1c4513b2eedbda136f57676a34eea67aba266e5c/config.json
+Model config DistilBertConfig {
+  "_name_or_path": "distilbert-base-uncased",
+  "activation": "gelu",
+  "architectures": [
+    "DistilBertForMaskedLM"
+  ],
+  "attention_dropout": 0.1,
+  "dim": 768,
+  "dropout": 0.1,
+  "hidden_dim": 3072,
+  "initializer_range": 0.02,
+  "max_position_embeddings": 512,
+  "model_type": "distilbert",
+  "n_heads": 12,
+  "n_layers": 6,
+  "pad_token_id": 0,
+  "qa_dropout": 0.1,
+  "seq_classif_dropout": 0.2,
+  "sinusoidal_pos_embds": false,
+  "tie_weights_": true,
+  "transformers_version": "4.25.1",
+  "vocab_size": 30522

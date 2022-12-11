@@ -1,0 +1,33 @@
+{
+    "os": "macOS-12.5-arm64-arm-64bit",
+    "python": "3.10.6",
+    "heartbeatAt": "2022-12-09T15:51:08.102523",
+    "startedAt": "2022-12-09T15:51:02.472104",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/MultiCoNER/Untitled.ipynb",
+    "root": "/Users/joesh/Documents/MultiCoNER",
+    "git": {
+        "remote": "https://github.com/joesharratt1229/MultiCoNER.git",
+        "commit": "431de5f0c1ec8730d17d737e29bc43c3891b4e64"
+    },
+    "email": null,
+    "host": "MacBook-Pro",
+    "username": "joesh",
+    "executable": "/opt/miniconda3/envs/torch/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3517189025879,
+        "used": 105.75889205932617
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

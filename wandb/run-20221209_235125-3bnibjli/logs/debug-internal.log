@@ -1,0 +1,188 @@
+2022-12-09 23:51:25,120 INFO    StreamThr :4523 [internal.py:wandb_internal():87] W&B internal server running at pid: 4523, started at: 2022-12-09 23:51:25.118404
+2022-12-09 23:51:25,122 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: status
+2022-12-09 23:51:25,124 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: status
+2022-12-09 23:51:25,126 DEBUG   SenderThread:4523 [sender.py:send():303] send: header
+2022-12-09 23:51:25,126 INFO    WriterThread:4523 [datastore.py:open_for_write():75] open: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/run-3bnibjli.wandb
+2022-12-09 23:51:25,163 DEBUG   SenderThread:4523 [sender.py:send():303] send: run
+2022-12-09 23:51:25,651 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: check_version
+2022-12-09 23:51:25,652 INFO    SenderThread:4523 [dir_watcher.py:__init__():216] watching files in: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files
+2022-12-09 23:51:25,652 INFO    SenderThread:4523 [sender.py:_start_run_threads():928] run started: 3bnibjli with start time 1670629885.106006
+2022-12-09 23:51:25,652 DEBUG   SenderThread:4523 [sender.py:send():303] send: summary
+2022-12-09 23:51:25,652 INFO    SenderThread:4523 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 23:51:25,653 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: check_version
+2022-12-09 23:51:25,853 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: run_start
+2022-12-09 23:51:25,866 DEBUG   HandlerThread:4523 [system_info.py:__init__():31] System info init
+2022-12-09 23:51:25,867 DEBUG   HandlerThread:4523 [system_info.py:__init__():46] System info init done
+2022-12-09 23:51:25,867 INFO    HandlerThread:4523 [system_monitor.py:start():150] Starting system monitor
+2022-12-09 23:51:25,867 INFO    SystemMonitor:4523 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2022-12-09 23:51:25,867 INFO    HandlerThread:4523 [system_monitor.py:probe():171] Collecting system info
+2022-12-09 23:51:25,868 INFO    SystemMonitor:4523 [interfaces.py:start():168] Started cpu
+2022-12-09 23:51:25,868 INFO    SystemMonitor:4523 [interfaces.py:start():168] Started disk
+2022-12-09 23:51:25,868 INFO    SystemMonitor:4523 [interfaces.py:start():168] Started gpuapple
+2022-12-09 23:51:25,868 DEBUG   HandlerThread:4523 [system_info.py:probe():195] Probing system
+2022-12-09 23:51:25,874 INFO    SystemMonitor:4523 [interfaces.py:start():168] Started memory
+2022-12-09 23:51:25,874 DEBUG   HandlerThread:4523 [system_info.py:_probe_git():180] Probing git
+2022-12-09 23:51:25,875 INFO    SystemMonitor:4523 [interfaces.py:start():168] Started network
+2022-12-09 23:51:25,903 DEBUG   HandlerThread:4523 [system_info.py:_probe_git():188] Probing git done
+2022-12-09 23:51:25,903 DEBUG   HandlerThread:4523 [system_info.py:probe():241] Probing system done
+2022-12-09 23:51:25,903 DEBUG   HandlerThread:4523 [system_monitor.py:probe():180] {'os': 'macOS-12.5-arm64-arm-64bit', 'python': '3.10.6', 'heartbeatAt': '2022-12-09T23:51:25.869020', 'startedAt': '2022-12-09T23:51:25.087609', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': 'Documents/MultiCoNER/Untitled.ipynb', 'root': '/Users/joesh/Documents/MultiCoNER', 'git': {'remote': 'https://github.com/joesharratt1229/MultiCoNER.git', 'commit': '431de5f0c1ec8730d17d737e29bc43c3891b4e64'}, 'email': None, 'host': 'MacBook-Pro', 'username': 'joesh', 'executable': '/opt/miniconda3/envs/torch/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 926.3517189025879, 'used': 109.14778518676758}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2022-12-09 23:51:25,903 INFO    HandlerThread:4523 [system_monitor.py:probe():181] Finished collecting system info
+2022-12-09 23:51:25,903 INFO    HandlerThread:4523 [system_monitor.py:probe():184] Publishing system info
+2022-12-09 23:51:25,903 DEBUG   HandlerThread:4523 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2022-12-09 23:51:25,904 DEBUG   HandlerThread:4523 [system_info.py:_save_pip():67] Saving pip packages done
+2022-12-09 23:51:25,904 DEBUG   HandlerThread:4523 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2022-12-09 23:51:26,658 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/requirements.txt
+2022-12-09 23:51:26,658 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/conda-environment.yaml
+2022-12-09 23:51:26,658 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-summary.json
+2022-12-09 23:51:27,741 DEBUG   HandlerThread:4523 [system_info.py:_save_conda():86] Saving conda packages done
+2022-12-09 23:51:27,741 INFO    HandlerThread:4523 [system_monitor.py:probe():186] Finished publishing system info
+2022-12-09 23:51:27,824 DEBUG   SenderThread:4523 [sender.py:send():303] send: files
+2022-12-09 23:51:27,824 INFO    SenderThread:4523 [sender.py:_save_file():1171] saving file wandb-metadata.json with policy now
+2022-12-09 23:51:27,829 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:51:27,829 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:51:28,048 DEBUG   SenderThread:4523 [sender.py:send():303] send: telemetry
+2022-12-09 23:51:28,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: config
+2022-12-09 23:51:28,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: metric
+2022-12-09 23:51:28,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: telemetry
+2022-12-09 23:51:28,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: metric
+2022-12-09 23:51:28,049 WARNING SenderThread:4523 [sender.py:send_metric():1127] Seen metric with glob (shouldn't happen)
+2022-12-09 23:51:28,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: telemetry
+2022-12-09 23:51:28,280 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: pause
+2022-12-09 23:51:28,280 INFO    HandlerThread:4523 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-09 23:51:28,280 INFO    HandlerThread:4523 [system_monitor.py:finish():160] Stopping system monitor
+2022-12-09 23:51:28,302 DEBUG   SystemMonitor:4523 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2022-12-09 23:51:28,302 DEBUG   SystemMonitor:4523 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2022-12-09 23:51:28,302 DEBUG   SystemMonitor:4523 [system_monitor.py:_start():141] Publishing last batch of metrics
+2022-12-09 23:51:28,303 INFO    HandlerThread:4523 [interfaces.py:finish():175] Joined cpu
+2022-12-09 23:51:28,303 INFO    HandlerThread:4523 [interfaces.py:finish():175] Joined disk
+2022-12-09 23:51:28,303 INFO    HandlerThread:4523 [interfaces.py:finish():175] Joined gpuapple
+2022-12-09 23:51:28,303 INFO    HandlerThread:4523 [interfaces.py:finish():175] Joined memory
+2022-12-09 23:51:28,303 INFO    HandlerThread:4523 [interfaces.py:finish():175] Joined network
+2022-12-09 23:51:28,303 DEBUG   SenderThread:4523 [sender.py:send():303] send: telemetry
+2022-12-09 23:51:28,303 DEBUG   SenderThread:4523 [sender.py:send():303] send: stats
+2022-12-09 23:51:28,525 INFO    Thread-16 :4523 [upload_job.py:push():143] Uploaded file /var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/tmpi3_cywuuwandb/rvdpih3p-wandb-metadata.json
+2022-12-09 23:51:28,669 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/conda-environment.yaml
+2022-12-09 23:51:28,670 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-metadata.json
+2022-12-09 23:51:43,066 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:51:43,067 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:51:55,795 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/config.yaml
+2022-12-09 23:51:58,405 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:51:58,406 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:52:13,652 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:52:13,653 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:52:28,918 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:52:28,919 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:52:44,178 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:52:44,178 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:52:59,414 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:52:59,415 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:53:14,670 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:53:14,671 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:53:18,978 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: resume
+2022-12-09 23:53:18,979 INFO    HandlerThread:4523 [handler.py:handle_request_resume():687] starting system metrics thread or process
+2022-12-09 23:53:19,120 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: pause
+2022-12-09 23:53:19,120 INFO    HandlerThread:4523 [handler.py:handle_request_pause():696] stopping system metrics thread or process
+2022-12-09 23:53:19,151 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/output.log
+2022-12-09 23:53:29,944 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: stop_status
+2022-12-09 23:53:29,950 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: stop_status
+2022-12-09 23:53:37,049 DEBUG   SenderThread:4523 [sender.py:send():303] send: exit
+2022-12-09 23:53:37,050 INFO    SenderThread:4523 [sender.py:send_exit():442] handling exit code: 0
+2022-12-09 23:53:37,050 INFO    SenderThread:4523 [sender.py:send_exit():444] handling runtime: 2
+2022-12-09 23:53:37,051 INFO    SenderThread:4523 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 23:53:37,051 INFO    SenderThread:4523 [sender.py:send_exit():450] send defer
+2022-12-09 23:53:37,052 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,052 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 0
+2022-12-09 23:53:37,052 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,052 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 0
+2022-12-09 23:53:37,052 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 1
+2022-12-09 23:53:37,053 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,053 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 1
+2022-12-09 23:53:37,053 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,053 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 1
+2022-12-09 23:53:37,053 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 2
+2022-12-09 23:53:37,053 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,053 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 2
+2022-12-09 23:53:37,054 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,054 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 2
+2022-12-09 23:53:37,054 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 3
+2022-12-09 23:53:37,054 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,054 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 3
+2022-12-09 23:53:37,054 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,054 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 3
+2022-12-09 23:53:37,054 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 4
+2022-12-09 23:53:37,054 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,054 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 4
+2022-12-09 23:53:37,054 DEBUG   SenderThread:4523 [sender.py:send():303] send: summary
+2022-12-09 23:53:37,055 INFO    SenderThread:4523 [sender.py:_save_file():1171] saving file wandb-summary.json with policy end
+2022-12-09 23:53:37,055 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,055 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 4
+2022-12-09 23:53:37,055 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 5
+2022-12-09 23:53:37,055 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,055 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 5
+2022-12-09 23:53:37,055 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,055 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 5
+2022-12-09 23:53:37,055 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 6
+2022-12-09 23:53:37,055 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,056 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 6
+2022-12-09 23:53:37,056 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,056 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 6
+2022-12-09 23:53:37,502 INFO    Thread-13 :4523 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-summary.json
+2022-12-09 23:53:37,758 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 7
+2022-12-09 23:53:37,758 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:37,758 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 7
+2022-12-09 23:53:37,758 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:37,758 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 7
+2022-12-09 23:53:37,758 INFO    SenderThread:4523 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-12-09 23:53:38,055 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 23:53:38,508 INFO    SenderThread:4523 [dir_watcher.py:finish():392] scan: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files
+2022-12-09 23:53:38,508 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/requirements.txt requirements.txt
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/output.log output.log
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/config.yaml config.yaml
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-summary.json wandb-summary.json
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/conda-environment.yaml conda-environment.yaml
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [dir_watcher.py:finish():406] scan save: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-metadata.json wandb-metadata.json
+2022-12-09 23:53:38,509 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 8
+2022-12-09 23:53:38,510 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 23:53:38,519 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:38,523 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 8
+2022-12-09 23:53:38,529 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:38,530 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 8
+2022-12-09 23:53:38,533 INFO    SenderThread:4523 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 23:53:39,059 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 23:53:39,059 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 23:53:39,360 INFO    Thread-17 :4523 [upload_job.py:push():143] Uploaded file /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/requirements.txt
+2022-12-09 23:53:39,364 INFO    Thread-19 :4523 [upload_job.py:push():143] Uploaded file /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/wandb-summary.json
+2022-12-09 23:53:39,389 INFO    Thread-20 :4523 [upload_job.py:push():143] Uploaded file /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/conda-environment.yaml
+2022-12-09 23:53:39,390 INFO    Thread-18 :4523 [upload_job.py:push():143] Uploaded file /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/files/config.yaml
+2022-12-09 23:53:39,592 INFO    Thread-12 (_thread_body):4523 [sender.py:transition_state():463] send defer: 9
+2022-12-09 23:53:39,592 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:39,592 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 9
+2022-12-09 23:53:39,593 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:39,593 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 9
+2022-12-09 23:53:39,593 INFO    SenderThread:4523 [file_pusher.py:join():173] waiting for file pusher
+2022-12-09 23:53:39,593 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 10
+2022-12-09 23:53:39,593 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:39,593 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 10
+2022-12-09 23:53:39,593 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:39,593 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 10
+2022-12-09 23:53:40,025 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 11
+2022-12-09 23:53:40,026 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:40,026 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 11
+2022-12-09 23:53:40,026 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:40,026 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 11
+2022-12-09 23:53:40,026 INFO    SenderThread:4523 [sender.py:transition_state():463] send defer: 12
+2022-12-09 23:53:40,026 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: defer
+2022-12-09 23:53:40,026 INFO    HandlerThread:4523 [handler.py:handle_request_defer():162] handle defer: 12
+2022-12-09 23:53:40,026 DEBUG   SenderThread:4523 [sender.py:send():303] send: final
+2022-12-09 23:53:40,026 DEBUG   SenderThread:4523 [sender.py:send():303] send: footer
+2022-12-09 23:53:40,026 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: defer
+2022-12-09 23:53:40,026 INFO    SenderThread:4523 [sender.py:send_request_defer():459] handle sender defer: 12
+2022-12-09 23:53:40,026 DEBUG   HandlerThread:4523 [handler.py:handle_request():139] handle_request: poll_exit
+2022-12-09 23:53:40,026 DEBUG   SenderThread:4523 [sender.py:send_request():317] send_request: poll_exit
+2022-12-09 23:53:43,515 WARNING StreamThr :4523 [internal.py:is_dead():386] Internal process exiting, parent pid 4514 disappeared
+2022-12-09 23:53:43,516 ERROR   StreamThr :4523 [internal.py:wandb_internal():146] Internal process shutdown.
+2022-12-09 23:53:44,031 INFO    HandlerThread:4523 [handler.py:finish():814] shutting down handler
+2022-12-09 23:53:44,032 INFO    WriterThread:4523 [datastore.py:close():279] close: /Users/joesh/Documents/MultiCoNER/wandb/run-20221209_235125-3bnibjli/run-3bnibjli.wandb
+2022-12-09 23:53:44,040 INFO    SenderThread:4523 [sender.py:finish():1331] shutting down sender
+2022-12-09 23:53:44,040 INFO    SenderThread:4523 [file_pusher.py:finish():168] shutting down file pusher
+2022-12-09 23:53:44,040 INFO    SenderThread:4523 [file_pusher.py:join():173] waiting for file pusher

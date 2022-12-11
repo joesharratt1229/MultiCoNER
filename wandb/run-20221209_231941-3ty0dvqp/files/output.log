@@ -1,0 +1,86 @@
+/var/folders/1q/q1xm4z_j5cgdswpvb5n90pc00000gn/T/ipykernel_4420/4238587454.py:17: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  batch_data ={key: torch.tensor(val[indx]) for key, val in self.tokens.items()}
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108413318
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108464841
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108464841
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108516364
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108567887
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108619410
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
+using `logging_steps` to initialize `eval_steps` to 1000
+PyTorch: setting up devices
+/opt/miniconda3/envs/torch/lib/python3.10/site-packages/transformers/optimization.py:306: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+***** Running training *****
+  Num examples = 16779
+  Num Epochs = 50
+  Instantaneous batch size per device = 16
+  Total train batch size (w. parallel, distributed & accumulation) = 16
+  Gradient Accumulation steps = 1
+  Total optimization steps = 52450
+  Number of trainable parameters = 108670933
+Automatic Weights & Biases logging enabled, to disable set os.environ["WANDB_DISABLED"] = "true"
